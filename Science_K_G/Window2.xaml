@@ -1,0 +1,34 @@
+﻿<Window x:Class="Science_K_G.Window2"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Science_K_G"
+        mc:Ignorable="d"
+        Title="Windows4" Height="450" Width="800">
+    <Grid>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="305,72,0,0" TextWrapping="Wrap" Text="" Name="textbox1" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="305,112,0,0" TextWrapping="Wrap" Text="" Name="textbox2" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="305,160,0,0" TextWrapping="Wrap" Text="" Name="textbox3" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="307,207,0,0" TextWrapping="Wrap" Text="" Name="textbox4" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="315,248,0,0" TextWrapping="Wrap" Text="" Name="textbox5" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="315,293,0,0" TextWrapping="Wrap" Text="" Name="textbox6" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="315,335,0,0" TextWrapping="Wrap" Text="" Name="textbox7" VerticalAlignment="Top" Width="120"/>
+
+
+        <Button Content="Save" HorizontalAlignment="Left" Margin="315,381,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
+        <Button Content="Update" HorizontalAlignment="Left" Margin="410,381,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
+
+
+
+        <Label Content="Polar Radius" HorizontalAlignment="Left" Margin="228,72,0,0" VerticalAlignment="Top"/>
+        <Label Content="Surface Area" HorizontalAlignment="Left" Margin="228,108,0,0" VerticalAlignment="Top"/>
+        <Label Content="Volume" HorizontalAlignment="Left" Margin="228,155,0,0" VerticalAlignment="Top"/>
+        <Label Content="Mass" HorizontalAlignment="Left" Margin="228,207,0,0" VerticalAlignment="Top"/>
+        <Label Content="Number of Moons" HorizontalAlignment="Left" Margin="202,245,0,0" VerticalAlignment="Top"/>
+        <Label Content="distance from earth" HorizontalAlignment="Left" Margin="193,289,0,0" VerticalAlignment="Top"/>
+        <Label Content="distance form Sun" HorizontalAlignment="Left" Margin="197,329,0,0" VerticalAlignment="Top"/>
+
+
+    </Grid>
+</Window>
